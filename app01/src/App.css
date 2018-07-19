@@ -1,0 +1,142 @@
+.App {
+  color:black;
+  width: 100%;
+  min-width: 600px;
+  padding: 50px;
+  background-image: url(img/weather.jpg);
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  outline: 2px solid lightskyblue;
+  width: 345px;
+  height: 30px;
+  margin: 40px 0 0 40px;
+  padding: 5px 5px 5px 15px;
+  font-size: 1em;
+  color: grey;
+}
+
+.inputWrapper {
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+  width: 120px;
+  height: 47px;
+  outline: 0px solid lightskyblue;
+  background: lightskyblue;
+  border: none;
+  color: beige;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+button:hover {
+  background: rgb(148, 148, 247);
+}
+
+.header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 50px 20px 20px 100px;
+}
+
+.dayWrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+
+.dayWrapper:hover {
+  border: 1px solid grey;
+}
+
+.tabDate {
+  width: 150px;
+margin-bottom: 20px;
+}
+
+.dayMonth {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.month {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.Понедельник,
+.Вторник,
+.Среда,
+.Четверг,
+.Пятница {  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.Суббота,
+.Воскресенье {  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+  color: red;
+}
+
+.infoWrapper {
+  width: 150px;
+}
+
+.icon {
+margin: 0 40px;
+}
+
+.temp {
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wind {
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.humidity {
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.text {
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  height: 110px;
+}
